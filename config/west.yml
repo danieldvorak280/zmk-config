@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-sofle-dongle
+      url: https://github.com/a741725193/zmk-sofle-dongle
+      revision: main
+      path: modules/zmk-sofle-dongle
   self:
     path: config
